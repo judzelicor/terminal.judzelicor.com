@@ -160,7 +160,7 @@ function Projects() {
                                     <p className={"projectCardDescription__AjX7"}>A Vue-based web application to visualize your personal data from Spotify. View your top artists, top tracks.</p>
                                     <ul className={"projectTechTags__AjX7"}>
                                         <li>
-                                            <div className={"projectTechTag__AjX7"} data-tech={"ejs"}>EJS</div>
+                                            <div className={"projectTechTag__AjX7"} data-tech={"vue"}>Vue</div>
                                         </li>
                                         <li>
                                             <div className={"projectTechTag__AjX7"} data-tech={"javascript"}>Javascript</div>
@@ -169,7 +169,7 @@ function Projects() {
                                             <div className={"projectTechTag__AjX7"} data-tech={"expressjs"}>Express</div>
                                         </li>
                                         <li>
-                                            <div className={"projectTechTag__AjX7"} data-tech={"mongodb"}>Mongodb</div>
+                                            <div className={"projectTechTag__AjX7"} data-tech={"mysql"}>MySQL</div>
                                         </li>
                                         <li>
                                             <div className={"projectTechTag__AjX7"} data-tech={"nginx"}>Nginx</div>

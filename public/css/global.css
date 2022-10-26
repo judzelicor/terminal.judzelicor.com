@@ -122,6 +122,11 @@ button {
 	color: #2f184b;
 }
 
+.projectTechTag__AjX7[data-tech="vue"] {
+	background-color: #42b883;
+	color: #2f184b;
+}
+
 .commandLineInput {
 	background-color: transparent;
     border: none;
