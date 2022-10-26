@@ -1,0 +1,27 @@
+.banner__AjX7 {
+    margin-bottom: 14px;
+}
+
+.bannerContent__AjX7 {
+    margin-bottom: 9px;
+}
+
+.bannerCommandLine__AjX7 {
+    align-items: center;
+    display: flex;
+}
+
+.bannerInput__AjX7 {
+    background-color: transparent;
+    border: none;
+    color: #07f49e;
+    font-family: "ModernDOS";
+    font-size: 16px;
+    height: 24px;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    padding-left: 21px;
+    padding-top: 4px;
+    width: 100%;
+}

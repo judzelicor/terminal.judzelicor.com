@@ -1,0 +1,31 @@
+.window__AjX7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 16px;
+}
+
+.shell__AjX7 {
+    border: 1px solid #3A2449;
+    border-radius: 7px;
+    box-shadow: 0 0 7px -1px #9785D5;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.shell__f2Jp {
+    height: calc(100% - 30px);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: calc(100% + 30px);
+}
+
+@media only screen and (min-width: 768px) {
+    .shell__AjX7 {
+        max-width: calc(100vw - 180px);
+        height: calc(100vh - 180px);
+    }
+}

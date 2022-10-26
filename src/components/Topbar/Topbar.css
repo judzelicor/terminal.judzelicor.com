@@ -1,0 +1,29 @@
+.topbar__AjX7 {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    z-index: 100;
+}
+
+.topbarLogo__LV5k {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.topbarButton__LV5k {
+    color: #FFC914;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 500ms ease-out;
+}
+
+.topbarButton__LV5k:hover {
+    background-color: rgb(255, 201, 20, 0.25);
+}
+
+.topbarButtonsList__LV5k {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

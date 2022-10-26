@@ -1,0 +1,29 @@
+.error__AjX7 {
+    margin-bottom: 14px;
+}
+
+.errorCommandLine__AjX7 {
+    align-items: center;
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.errorInput__AjX7 {
+    background-color: transparent;
+    border: none;
+    color: #EE6123;
+    font-family: "ModernDOS";
+    font-size: 16px;
+    height: 24px;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    padding-left: 21px;
+    padding-top: 4px;
+    width: 100%;
+}
+
+.errorContentCommand__AjX7 {
+    color: #EE6123;
+    font-style: italic;
+}

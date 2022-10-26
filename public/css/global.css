@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html,
+body {
+    background-color: #2f184b;
+	color: #07f49e;
+	font-family: "ModernDOS";
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	color: #07f49e;
+	cursor: pointer;
+	font-family: "ModernDOS";
+}
+
+#root {
+	height: 100vh;
+}
+
+@font-face {
+    font-family: "ModernDOS";
+    src: url("../fonts/ModernDOS8x14.ttf") format("truetype");
+}
+
+.projectTechTag__AjX7[data-tech] {
+	border-radius: 3px;
+	font-size: 12px;
+	padding: 3px 9px;
+	width: fit-content;
+}
+
+.projectTechTag__AjX7[data-tech="reactjs"] {
+	background-color: aqua;
+	color: #2f184b;
+}
+
+.projectTechTag__AjX7[data-tech="nodejs"] {
+	background-color:#339933;
+	color: #2f184b;
+}
+
+.projectTechTag__AjX7[data-tech="javascript"] {
+	background-color: yellow;
+	color: #2f184b;
+}
+
+.projectTechTag__AjX7[data-tech="expressjs"] {
+	background-color: orange;
+	color: #2f184b;
+}
+
+.projectTechTag__AjX7[data-tech="nginx"] {
+	background-color: orangered;
+	color: #2f184b;
+}
+
+.projectTechTag__AjX7[data-tech="mongodb"] {
+	background-color: #589636;
+	color: #2f184b;
+}
+
+.projectTechTag__AjX7[data-tech="ejs"] {
+	background-color: #a91e50;
+	color: #2f184b;
+}
+
+.projectTechTag__AjX7[data-tech="mysql"] {
+	background-color: #00758f;
+	color: #2f184b;
+}
+
+.commandLineInput {
+	background-color: transparent;
+    border: none;
+    color: #07f49e;
+    font-family: "ModernDOS";
+    font-size: 16px;
+    height: 24px;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    padding-left: 21px;
+    padding-top: 4px;
+    width: 100%;
+}
+
+.link {
+	color: #07f49e;
+	cursor: alias;
+}

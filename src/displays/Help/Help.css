@@ -1,0 +1,30 @@
+.help__AjX7 {
+    margin-bottom: 14px;
+}
+
+.helpCommandsTable__AjX7 {
+    color: #07f49e;
+    font-family: "ModernDOS";
+    line-height: 28px;
+}
+
+.helpCommandsTitle__AjX7 {
+    color: #07f49e;
+    font-family: "ModernDOS";
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.helpCommandsTableHeaderCol__AjX7 {
+    padding-right: 24px;
+}
+
+.downloadHelpCommand__AjX7,
+.openHelpCommand__AjX7 {
+    margin-bottom: 14px;
+}
+
+.downloadHelpCommandTable__AjX7,
+.openHelpCommandTable__AjX7 {
+    line-height: 28px;
+}

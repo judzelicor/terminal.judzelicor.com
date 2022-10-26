@@ -1,0 +1,21 @@
+.fetchsum__AjX7 {
+    margin-bottom: 14px;
+}
+
+.fetchsumCommandsTableHeaderCol__AjX7 {
+    line-height: 28px;
+    padding-right: 24px;
+}
+
+.fetchsumColumnsWrapper__AjX7 {
+    display: block;
+    gap: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .fetchsumColumnsWrapper__AjX7 {
+        align-items: center;
+        display: flex;
+        justify-content: flex-start;
+    }
+}

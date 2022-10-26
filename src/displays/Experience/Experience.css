@@ -1,0 +1,43 @@
+.experienceDisplay__AjX7 {
+    margin-bottom: 14px;
+}
+
+.experienceDisplayCommandLine__AjX7 {
+    align-items: center;
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.experienceDisplayContent__AjX7 {
+    max-width: 720px;
+}
+
+.experienceDisplayContentTitle__AjX7 {
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.experienceDisplayContentPar__AjX7 {
+    margin-bottom: 7px;
+}
+
+.experienceDisplayContentPar__AjX7.banner {
+    background-color: rgb(255, 201, 20, 0.9);
+    border-radius: 7px;
+    box-shadow: 0 0 9px -1px #fcc914;
+    color: #2f184b;
+    font-weight: bold;
+    padding: 7px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.experienceQualificationsList__AjX7 {
+    list-style: disc;
+    line-height: 1.3;
+    padding-left: 24px;
+}
+
+.experienceQualificationsList__AjX7 li {
+    margin-bottom: 14px;
+}
