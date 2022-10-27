@@ -23,7 +23,11 @@ I will continue to develop this website as my skills and portfolio grow sophisti
 
 ✅ Visitors can traverse the history of commands by pressing the "up" and "down" arrow keys the way the a typical terminal functions.
 
-✅ Responsive terminal section. 
+✅ Responsive terminal section.
+
+✅ Display error when a command is not recognized by the Yesod System.
+
+❌ Display error if an error occured during the execution of a process command.
 
 ❌ Ability to launch a simulated python or node environment. I think this would be a nice touch. I need to study up on this.
 
