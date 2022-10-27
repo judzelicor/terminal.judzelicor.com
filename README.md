@@ -1,3 +1,5 @@
+![](./docs/images/Screen%20Shot%202022-10-27%20at%2011.19.07%20AM.png)
+
 ## Exposition
 
 As a programmer, I am well-acquainted with the terminal. It is an integral tool to every programmer to navigate their local computers, perform tasks, and even control remote computers such as servers. It allows humans--programmers, to control their machine at a level beyond graphical user interfaces can. That is why I thought it would be interesting if I were to build my portfolio in a way to would seem like it was a terminal. This terminal portfolio currently relfects the aesthetic of my own terminal on my mac machine, and just your typical terminal, it allows one to navigate the many features on this website by typing in commands.
@@ -26,3 +28,7 @@ I will continue to develop this website as my skills and portfolio grow sophisti
 ❌ Ability to launch a simulated python or node environment. I think this would be a nice touch. I need to study up on this.
 
 ❌ Customizable themes.
+
+❌ Improve front-end design.
+
+❌ Typewriter effect to reveal the result of every command.
