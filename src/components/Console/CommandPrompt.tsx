@@ -1,4 +1,5 @@
 import React from "react";
+import { connect } from "react-redux";
 import { YesodSystem } from "../../YesodSystem";
 
 class CommandPrompt extends React.Component<any, any> {
@@ -8,7 +9,8 @@ class CommandPrompt extends React.Component<any, any> {
         super(props);
 
         this.state = {
-            inputText: ""
+            inputText: "",
+            commandHistoryIndex: 1
         }
 
         this.inputRef = React.createRef();
@@ -17,14 +19,36 @@ class CommandPrompt extends React.Component<any, any> {
     }
 
     handleInput(event: any) {
+        let commandHistory;
         let input;
         let command;
+        let currentCommandIndex;
+        let nextCommand;
+        let nextCommandIndex;
 
         input = event.target.value.trim();
+        const { activeSession } = this.props;
+        commandHistory = activeSession.commandHistory;
 
         if (event.key === "Enter") {
             YesodSystem.queueCommand(input);
-            this.setState({ inputText: "" });
+            this.setState({ inputText: "" , commandHistoryIndex: this.state.commandHistoryIndex + 1});
+        } else if (event.key === "ArrowUp") {
+            if (this.state.commandHistoryIndex <= commandHistory.length) {
+                currentCommandIndex = this.state.commandHistoryIndex;
+                nextCommandIndex = currentCommandIndex - 1
+                nextCommand = commandHistory[nextCommandIndex]
+                this.setState({ commandHistoryIndex: nextCommandIndex, inputText: nextCommand});
+                console.log(currentCommandIndex)
+            }
+        } else if (event.key === "ArrowDown") {
+            if (this.state.commandHistoryIndex >= 0) {
+                currentCommandIndex = this.state.commandHistoryIndex;
+                nextCommandIndex = currentCommandIndex + 1;
+                nextCommand = commandHistory[nextCommandIndex]
+                this.setState({ commandHistoryIndex: nextCommandIndex, inputText: nextCommand })
+            }
+
         }
     }
 
@@ -34,6 +58,7 @@ class CommandPrompt extends React.Component<any, any> {
     }
 
     render() {
+        console.log(this.state, this.props.activeSession.commandHistory)
         return (
             <React.Fragment>
                 <input
@@ -49,4 +74,12 @@ class CommandPrompt extends React.Component<any, any> {
     }
 }
 
-export default CommandPrompt;
+function mapStateToProps(state: any) {
+    const { activeSession } = state;
+
+    return {
+        activeSession
+    }
+}
+
+export default connect(mapStateToProps)(CommandPrompt);
